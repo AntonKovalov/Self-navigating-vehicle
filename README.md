@@ -16,6 +16,7 @@ I have to admit that at the very beggining of the project I had no idea about RL
 ### Process
 
 If you want get more familiar with RL I highly recommend the following sources:
-*[DEEPLIZARD](https://deeplizard.com/learn/playlist/PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv) for theory and practice
-*[Keon's blog](https://keon.github.io/) for great and very very understandable code
-*[Path Mind](https://pathmind.com/wiki/deep-reinforcement-learning) for absolutely amazing theoretical explanation.
+
+ * [DEEPLIZARD](https://deeplizard.com/learn/playlist/PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv) for theory and practice
+ * [Keon's blog](https://keon.github.io/) for great and very very understandable code
+ * [Path Mind](https://pathmind.com/wiki/deep-reinforcement-learning) for absolutely amazing theoretical explanation.
