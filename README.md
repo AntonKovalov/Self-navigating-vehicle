@@ -13,7 +13,8 @@ All the code is available in [here](https://github.com/AntonKovalov/Self-navigat
 
 I have to admit that at the very beggining of the project I had no idea about RL and I knew very little about deep learning modules too. I am extremely thankful for all the resources out there that helped me orient myself around this topic and allowed me to have a lot of fun and thrill.
 
-### Resources
+
+### Resources and prerequisites
 
 If you want get more familiar with RL I highly recommend the following sources:
 
@@ -28,3 +29,13 @@ Here are also link to the webpages of modules that I heavily relied on:
  * [Keras](https://keras.io/)
  * [Pymunk](http://www.pymunk.org/en/latest/pymunk.html)
  * [Pygame](https://www.pygame.org/docs/)
+
+If you would like to follow the path I took, you would need to *pip install* the aforementioned modules into your conda environment, and technically you are good to go.
+
+### Learning process
+
+The agent (or a vehicle) has a certain learning process, during which it starts of by exploaring the environment taking random actions in it. Actions lead the agent from the previous state to a new state. Together with that the agent obtains a reward. The underlying logic is to find the action-taking strategy wich yield the greatest cumulative reward.
+
+To give the agent a spacial perception I created a class called *SonarArm()*, which creates an array of detectors that are capable of identifying the color of the pixel they land at. If the color is the one of the *Obstacle()* or if the the sensor is out of the *Border()*, the sensor turns into some non-negative value. At each time step I sum up the readings and substract them from 35, the resultant value is remembred as the score obtained at a new state.
+
+If we colide the penalty score is -500. It was quite a large number, but it was working, so I did not touch it.
