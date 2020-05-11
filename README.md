@@ -1,5 +1,6 @@
 # Self-navigating-vehicle
 
+### Introduction
 This project is dedicated to learning the basics of Deep Reinforcement Learning.
 
 The main goal was to design a simple environment with obstacles and a vehicle in it. Through trial and error the vehicle is expected to achive a certain level of proficiency in navigating itself around a map.
