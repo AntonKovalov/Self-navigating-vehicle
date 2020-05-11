@@ -32,10 +32,22 @@ Here are also link to the webpages of modules that I heavily relied on:
 
 If you would like to follow the path I took, you would need to *pip install* the aforementioned modules into your conda environment, and technically you are good to go.
 
-### Learning process
+### A liitle explanation
 
 The agent (or a vehicle) has a certain learning process, during which it starts of by exploaring the environment taking random actions in it. Actions lead the agent from the previous state to a new state. Together with that the agent obtains a reward. The underlying logic is to find the action-taking strategy wich yield the greatest cumulative reward.
 
 To give the agent a spacial perception I created a class called *SonarArm()*, which creates an array of detectors that are capable of identifying the color of the pixel they land at. If the color is the one of the *Obstacle()* or if the the sensor is out of the *Border()*, the sensor turns into some non-negative value. At each time step I sum up the readings and substract them from 35, the resultant value is remembred as the score obtained at a new state.
 
 If we colide the penalty score is -500. It was quite a large number, but it was working, so I did not touch it.
+
+There three options to act from:
+ - keep moving
+ - turn 3 degrees to the right
+ - trun 3 degrees to the left
+ 
+
+### Results
+
+Of course the results. I was trecking the duration of the agent before it collided, and how it was changing every 25th game.
+
+[!IMG](C:\Users\User\Desktop\simulation\first_generation\fig_av.png)
