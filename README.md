@@ -1,6 +1,6 @@
 # Self-navigating-vehicle
 
-### Introduction
+## Introduction
 
 This project is dedicated to learning the basics of Deep Reinforcement Learning.
 
@@ -14,7 +14,7 @@ All the code is available in [here](https://github.com/AntonKovalov/Self-navigat
 I have to admit that at the very beggining of the project I had no idea about RL and I knew very little about deep learning modules too. I am extremely thankful for all the resources out there that helped me orient myself around this topic and allowed me to have a lot of fun and thrill.
 
 
-### Resources and prerequisites
+## Resources and prerequisites
 
 If you want get more familiar with RL I highly recommend the following sources:
 
@@ -32,7 +32,7 @@ Here are also link to the webpages of modules that I heavily relied on:
 
 If you would like to follow the path I took, you would need to *pip install* the aforementioned modules into your conda environment, and technically you are good to go.
 
-### A liitle explanation
+## A little explanation
 
 The agent (or a vehicle) has a certain learning process, during which it starts of by exploaring the environment taking random actions in it. Actions lead the agent from the previous state to a new state. Together with that the agent obtains a reward. The underlying logic is to find the action-taking strategy wich yield the greatest cumulative reward.
 
