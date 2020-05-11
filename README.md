@@ -51,3 +51,14 @@ There three options to act from:
 Of course the results. I was trecking the duration of the agent before it collided, and how it was changing every 25th game.
 
 ![Image of Yaktocat](fig_av.png)
+
+And here are some visual stuff for fun:
+
+ 1. Tested in original environment
+ ![](https://youtu.be/UOuvcNy_85k) 
+ 
+ 2. Tested in slightly modified environment
+ ![](https://youtu.be/_JjJafT6PhM) 
+ 
+ 3. Tested in pseudo random environment
+ ![](https://youtu.be/BGAc1jN2V7Q)
