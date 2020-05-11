@@ -54,11 +54,8 @@ Of course the results. I was trecking the duration of the agent before it collid
 
 And here are some visual stuff for fun:
 
- 1. Tested in original environment
- [Part 1](<iframe width="560" height="315" src="https://www.youtube.com/embed/UOuvcNy_85k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>) 
+ 1. [Tested in original environment](https://www.youtube.com/watch?v=UOuvcNy_85k)
  
- 2. Tested in slightly modified environment
- ![](https://youtu.be/_JjJafT6PhM) 
+ 2. [Tested in slightly modified environment](https://www.youtube.com/watch?v=_JjJafT6PhM)
  
- 3. Tested in pseudo random environment
- ![](https://youtu.be/BGAc1jN2V7Q)
+ 3. [Tested in pseudo random environment](https://www.youtube.com/watch?v=BGAc1jN2V7Q)
