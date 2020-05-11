@@ -50,4 +50,4 @@ There three options to act from:
 
 Of course the results. I was trecking the duration of the agent before it collided, and how it was changing every 25th game.
 
-[!IMG](fig_av.png)
+![Image of Yaktocat](fig_av.png)
