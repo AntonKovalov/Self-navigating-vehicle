@@ -4,7 +4,7 @@
 
 This project is dedicated to learning the basics of Deep Reinforcement Learning.
 
-The main goal was to design a simple environment with obstacles and a vehicle in it. Through trial and error the vehicle is expected to achive a certain level of proficiency in navigating itself around a map.
+The main goal was to design a simple environment with obstacles and a vehicle in it. Through trial and error the vehicle is expected to achieve a certain level of proficiency in navigating itself around a map.
 
 To simulate the environment I used two python modules - _Pymunk_ for physics simulation, and _Pygame_ for rendering the game.
 _Tensorflow_ and _Keras_ were used for creating the model of a neural-network.
